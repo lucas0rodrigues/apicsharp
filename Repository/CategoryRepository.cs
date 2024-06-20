@@ -17,6 +17,8 @@ namespace apicsharp.Repository
         {
             _context.Add(category);
             _context.SaveChanges();
+
+            
             
             return Get(category.Id);
         }
