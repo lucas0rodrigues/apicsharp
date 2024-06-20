@@ -21,6 +21,7 @@ namespace apicsharp.Repository
             return Get(category.Id);
         }
 
+
         public void Delete(CategoryModel category)
         {
             _context.Remove(category);
